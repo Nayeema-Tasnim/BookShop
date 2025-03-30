@@ -1,0 +1,1 @@
+This is a web-based application that dynamically generates and displays book data based on user-defined settings. It allows users to customize their book generation by specifying language, seed values, likes, and reviews. The project demonstrates the integration of dynamic backend services with a responsive frontend, complete with infinite scrolling and detailed views.
