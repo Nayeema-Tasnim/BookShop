@@ -3,6 +3,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews(); // Enables MVC support
 
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";//extra
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");//extra
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
